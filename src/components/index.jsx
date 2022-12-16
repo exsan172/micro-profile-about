@@ -9,7 +9,7 @@ const About = () => {
             </div>
             <div className="flex shadow py-7 px-5 mt-10 border rounded-md flex-col justify-center items-center">
                 <div className="flex">
-                    <h1 className="text-2xl md:text-4xl">Exsan Renaldhi</h1>
+                    <h1 className="text-2xl md:text-4xl">Exsan Renaldhi++</h1>
                 </div>
                 <div className="flex mt-7 text-xs md:text-sm">
                     <p>Hi, saya adalah software engineer saya lulusan SMK jurusan Rekayasa Perangkat Lunak atau RPL. saya bisa membuat aplikasi android, website bagian frontend maupun backend, anda bisa menghubungi saya di bagian kontak pada halaman website ini.</p>
