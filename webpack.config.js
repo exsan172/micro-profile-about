@@ -1,10 +1,11 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
+require("dotenv").config()
 
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    publicPath: "https://micro-profile-about.vercel.app/",
+    publicPath: `${process.env.REACT_APP_DEVELOPMENT === "true" ? "http://localhost:3001/" : process.env.REACT_APP_CURENT_URL}`,
   },
 
   resolve: {
